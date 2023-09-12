@@ -1,0 +1,52 @@
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  color: #333;
+}
+.container{
+  max-width: 1024px;
+  margin: 0 auto;
+}
+@media(max-width: 1024px){
+  .container{
+    max-width: 100%;
+    padding: 10px;
+  }
+   
+}
+.dotted {
+  margin-left: 20px;
+}
+.dotted li{
+  padding-left: 15px;
+  background: url("check.svg") 0 7px no-repeat;
+  line-height: 140%; /* 28/20 */
+}
+.dotted-dark li{
+  background: url("check-dark.svg") 0 7px no-repeat;
+}
+.dotted-certificate li{
+  padding-left: 25px;
+  line-height: 200%;
+
+  background: url("certificate.svg") 0 7px no-repeat;
+}
+.dotted-dark a{
+  color: #31507F;
+}
+.dotted_small li{
+  padding-left: 0.9375rem;
+  background: url("circle1.svg") 0 0.4375rem no-repeat;
+  line-height: 140%; 
+}
+h3{
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: 500;
+  border-bottom: 2px solid #222;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+a:hover{
+  text-decoration: underline;
+}

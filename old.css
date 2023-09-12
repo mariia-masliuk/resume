@@ -1,0 +1,148 @@
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.left {
+  flex: 0 0 200px;
+  color: #fff;
+  background-color:#31507F;
+  padding: 10px;
+}
+.info {
+  flex: 1 1 auto;
+}
+.info li{
+  display: flex;
+  column-gap: 10px;
+  
+}
+.info li:not(:last-child){
+  margin-bottom: 10px;
+}
+.address{
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #fff;
+}
+.header {
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+ul.dotted{
+  margin-left: 20px;
+}
+ul.dotted li{
+  padding-left: 15px;
+  background: url("check.svg") 0 7px no-repeat;
+  line-height: 140%; /* 28/20 */
+}
+ul.dotted-dark li{
+  background: url("check-dark.svg") 0 7px no-repeat;
+}
+ul.dotted-certificate li{
+  padding-left: 25px;
+  line-height: 200%;
+
+  background: url("certificate.svg") 0 7px no-repeat;
+}
+ul.dotted-certificate a{
+  color: #31507F;  
+  font-weight: 700;
+}
+ul.dotted-dark a{
+  color: #31507F;
+}
+
+
+.content {
+  margin-left: 40px;
+  margin-bottom: 30px;
+}
+.header__content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.header__content img{
+  max-width: 200px;
+}
+h1{
+  font-size: 45px;
+  color: #31507F;
+  padding-bottom: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: relative;
+}
+h1:after{
+  position: absolute;
+  left: 0;
+  bottom: 10px;
+  content: '';
+  width: 150px;
+  height: 3px;
+  background-color: #999;
+}
+h2{
+  font-size: 25px;
+  text-transform: uppercase;
+  color: #999;
+  font-weight: 500; 
+  margin-bottom: 20px;
+}
+h3{
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.desc {
+  padding: 20px;
+  border-radius: 15px;
+  background-color: #aaa;
+  color: #fff;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, .3);
+}
+.items {
+  display: grid;
+  /* border: 1px solid #aaa; */
+  width: 100%;
+}
+
+.item {
+  display: grid;
+  border-bottom: 1px solid #aaa;
+   grid-template-columns: 1fr 1fr;
+   padding: 10px;
+}
+.column {
+}
+.label {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.company {
+  color: #999;
+}
+.title {
+  /* font-size: 18px; */
+  font-weight: 700;
+  color: #999;
+  margin-bottom: 10px;
+}
+span{
+  color: #555;
+
+}
+.text {
+}
+.certificate{
+  display: flex;
+  gap: 10px;
+}

@@ -1,0 +1,105 @@
+@media(min-width: 768px){
+  .main {
+  display: flex;
+  gap: 1.25rem;
+  }
+  .main__skill {
+    flex: 0 0 200px;
+  }
+
+  .main__works {
+    flex: 1 1 auto;
+  }
+}
+
+
+.main__portfolio {
+}
+
+.main__courses {
+}
+
+
+
+.container {
+}
+.skill {
+  background-color: #31507F;
+  color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, .3);
+}
+  .skill__header {
+    border-bottom: 2px solid #fff;
+  }
+
+  .skill__list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  }
+
+
+.work {
+}
+.work__items {
+}
+
+.work__item {
+  border-bottom: 1px dotted #555;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+.work__position {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.work__company {
+}
+.work__desc {
+  color: #666;
+}
+
+.company {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-weight: 700;
+  color: #999;
+  margin-bottom: 15px;
+}
+.company__name {
+}
+
+.company__date {
+}
+
+
+.course {
+}
+  .course__item {
+    margin-bottom: 20px;
+  }
+  .course__item > *:not(:last-child){
+    margin-bottom: 10px;
+  }
+  .course__name {
+    font-weight: 700;
+  }
+
+  .course__date {
+    font-weight: 700;
+    color: #999;
+   }
+
+  .course__descr {
+ 
+  }
+
+
+.certificate a span{
+  font-weight: 700;
+}
+

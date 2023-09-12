@@ -4,21 +4,40 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mariia Masliuk. Resume</title>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:regular,700" rel="stylesheet" />
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
-    <aside class="left">
-      <div class="info">
-        <ul class="address">
-          <li><i class="fa-solid fa-location-dot"></i>Ukraine, Kharkiv</li>
-          <li><i class="fa-solid fa-envelope"></i><a href="mailto:maslukmary@gmail.com">maslukmary@gmail.com</li>
-          <li><i class="fa-solid fa-phone"></i><a href="tel:+380979502061">+380979502061</a></li>
-          <li><i class="fa-brands fa-linkedin"></i><a href="https://www.linkedin.com/in/mary-masluk-a857b0113/" target="_blank">LinkedIn</a></li>
-          <li><i class="fa-brands fa-github"></i><a href="https://github.com/mariia-masliuk" target="_blank">GitHub</a></li>
-        </ul>
-        <div class="header">Hard skills</div>
-        <ul class="dotted">
+  <header class="header">
+    <div class="header__container container">
+      <div class="header__row">
+        <div class="header__content">
+          <h1>Mariia Masliuk</h1>
+          <h2>Trainee / Junior Front-end Developer</h2>
+        </div>
+        <div class="header__image"><img src="avatar.jpg" alt=""></div>
+      </div>
+      <div class="header__desc">Experienced software engineer with a strong foundation in PHP development and a passion for front-end technologies. Proven track record of
+        delivering high-quality projects and a dedication to continuous learning. Currently seeking a front-end engineer role to leverage expertise in
+        HTML5, CSS3, JavaScript, and ReactJS. Actively engaged in learning ReactJS and enthusiastic about growing in this direction to become a
+        proficient ReactJS developer in the future. Open to considering junior developer or trainee positions as a starting point for this transition.
+        </div>
+      <ul class="header__address">
+        <li><i class="fa-solid fa-location-dot"></i> Ukraine</li>
+        <li><i class="fa-solid fa-envelope"></i><a href="mailto:maslukmary@gmail.com"> maslukmary@gmail.com</li>
+        <li><i class="fa-solid fa-phone"></i><a href="tel:+380979502061"> +380979502061</a></li>
+        <li><i class="fa-brands fa-linkedin"></i><a href="https://www.linkedin.com/in/mary-masluk-a857b0113/" target="_blank"> linkedIn</a></li>
+        <li><i class="fa-brands fa-github"></i><a href="https://github.com/mariia-masliuk" target="_blank"> https://github.com/mariia-masliuk</a></li>
+    </ul>
+    </div>
+    
+  </header>
+  <main class="main container">
+
+      <aside class="main__skill skill">
+        
+        <h3 class="skill__header">Skills</h3>
+        <ul class="skill__list dotted">
           <li>Html5</li>
           <li>Css3</li>
           <li>JavaScript(ES9)</li>
@@ -31,179 +50,183 @@
           <li>Gulp</li>
           <li>Webpack</li>
           <li>Git</li>
-        </ul>
-        <div class="header">Soft Skill</div>
-        <ul class="dotted">
           <li>Responsible and organized</li>
           <li>Attentive to details</li>
           <li>Hardworking and meet deadlines</li>
           <li>Open to new knowlendge and skills</li>
         </ul>
-      </div>
-    </aside>
-    <div class="content">
-        <div class="header__content">
-          <div class="header__item">
-            <h1>Mariia Masliuk</h1>
-            <h2>Trainii / Junior Front-end Developer</h2>
-          </div>
-          <div class="header__item">
-            <img src="avatar.jpg" alt="">
-          </div>
-        </div>
+      </aside>
+    <div class="main__works work">
+      <h3>PROJECTS</h3>
+      <ul class="main__portfolio dotted dotted-dark">
+        <li><a href="https://mariia-masliuk.github.io/arkar/dist/" target="_blank">Sample Landing Page Implementation for a Custom-Tailored Eyewears</a></li>
+        <li><a href="https://mariia-masliuk.github.io/nature/dist/" target="_blank">Sample Landing Page Implementation for a Travel Agency</a></li>
+        <li><a href="https://mariia-masliuk.github.io/tripgraph/dist/dashboard.html" target="_blank">Sample TripGraph Dashboard Implementation with Adaptive UI
+        </a></li>
+      </ul>
+      <h3>Experience</h3>
+        <div class="work__items">
+          
+          <div class="work__item">
+            <div class="work__position">Python Developer</div>
+            <div class="work__company company">
+              <div class="company__name">Freelance</div>
+              <div class="company__date">March 2020 - July 2022</div>
+            </div>
+            <div class="work__desc">
+              <ul class="dotted_small">
+                <li>Developed an interface for the operation of bead cutters and saws for a Window Manufacturer using Python, MySQL, Tkinter, and ModBus.</li>
+                <li>Leveraged Python with KTinker to navigate the firmware's unique constraints, necessitating the use of a simple executable file as the optimal solution.</li>
+                <li>Designed a robust system for parsing data from mixed-format files, meticulously representing them on the user interface, and seamlessly
+                  transmitting them via TCP to the firmware interface</li>
+                <li>Demonstrated exceptional proficiency in handling responses from the firmware, ensuring seamless communication between the UI and
+                  firmware.
+                </li>
+                <li>GitHub Repositories:<br>
+                  <a href="https://github.com/littlemary/parser_pila">https://github.com/littlemar...</a><br>
+                  <a href="https://github.com/littlemary/rascroyshtapik">https://github.com/littlemar...</a>.</li>
+              </ul>
+            </div>
+          </div>  
         
-        <div class="desc">Successfully completed courses in HTML/CSS JavaScript(ES9), TypeScript, React, Bootstrap, Git, Scrum. I applied these technologies to create my own projects. I have experience with SCSS, Redux, Git. I work daily to improve my skills.</div>
-        <h3>Experience</h3>
-        <div class="items">
-          <div class="item">
-            <div class="column">
-              <div class="label">Python Developer</div>
-              <div class="company">Window production factory. Freelance <br>03.2020 - 07.2022</div>
+          <div class="work__item">
+            <div class="work__position">Middle PHP Developer</div>
+            <div class="work__company company">
+              <div class="company__name">iDeus</div>
+              <div class="company__date">September 2003 - May 2004</div>
             </div>
-            <div class="column">
-              <div class="title">Responsibilities:</div>
-              <div class="text">Python, mySQL, ModBus<br><br>
-                Creating an interface for the operation of the bead cutter and saw.
-                You can see my projects in the git repository.
-                <ul class="dotted dotted-dark">
-                  <li><a href="https://github.com/littlemary/parser_pila" target="_blank">https://github.com/littlemary/parser_pila</a></li>
-                  <li><a href="https://github.com/littlemary/rascroyshtapik" target="_blank">https://github.com/littlemary/rascroyshtapik</a></li>
-                </ul> 
-                
-              </div>
-            </div>
-          </div>
-          <div class="item">
-            <div class="column">
-              <div class="label">Middle PHP Developer</div>
-              <div class="company">iDeus | Kharkiv<br>05.2005 - 07.2017</div>
-            </div>
-            <div class="column">
-              <div class="title">Responsibilities:</div>
-              <div class="text">
-                PHP mySQL JavaScript<br><br>
-                <span>Frameworks:</span> jQuery, Yii2, Kohana, Codeigniter<br><br>
-                <span>Projects:</span> landing, e-commerce, online courses, platform for dentist hiring.
-              <ul class="dotted dotted-dark">
-                  <li><a href="http://interactive.ranok.com.ua/" target="_blank">http://interactive.ranok.com.ua/</a></li>
-                </ul> 
-
-              </div>
-            </div>
-          </div>
-          <div class="item">
-            <div class="column">
-              <div class="label">Junior PHP Developer</div>
-              <div class="company">EasternGateway | Kharkiv<br>09.2003 - 05.2004</div>
-            </div>
-            <div class="column">
-              <div class="title">Responsibilities:</div>
-              <div class="text">PHP, mySQL, Ajax</div>
-            </div>
-          </div>
-          <div class="item">
-            <div class="column">
-              <div class="label">Freelance Developer</div>
-              <div class="company">RaffSoft | Kharkiv<br>09.2003 - 05.2004</div>
-            </div>
-            <div class="column">
-              <div class="title">Responsibilities:</div>
-              <div class="text">MSAccess, Delphi, HTML, CSS, PHP, mySQL</div>
-            </div>
-          </div>
-          <div class="item">
-            <div class="column">
-              <div class="label">Junior PHP Developer</div>
-              <div class="company">Kharkiv Forex Club | Kharkiv<br>02.2002 - 09.2003
-                </div>
-            </div>
-            <div class="column">
-              <div class="title">Responsibilities:</div>
-              <div class="text">
-                HTML, CSS, PHP, mySQL, postgreSQL
-                <br><br>
-                <span>Project</span>Making a company website, writing mathematical tools for market
-                analysis.</div>
+            <div class="work__desc">
+              <ul class="dotted_small">
+                <li>Proficient in PHP, MySQL, JavaScript, and various frameworks including jQuery, Yii2, Kohana, and Codeigniter.</li>
+                <li>Successfully delivered projects in landing pages, e-commerce, online courses, and dentist hiring platforms.
+                </li>
+                <li>Implemented integration of the product reviews into the existing forum.
+                </li>
+                <li>Example of the completed project: http://interactive.ranok.com.ua/.
+                </li>
+              </ul>
             </div>
           </div>
 
+          <div class="work__item">
+            <div class="work__position">Junior PHP Developer</div>
+            <div class="work__company company">
+              <div class="company__name">EasternGateway</div>
+              <div class="company__date">September 2003 - May 2004</div>
+            </div>
+            <div class="work__desc">
+              <ul class="dotted_small">
+                <li>Developed a mini Content Management System (CMS)</li>
+                <li>Technology stack: PHP, MySQL, and Ajax.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="work__item">
+            <div class="work__position">Freelance Developer</div>
+            <div class="work__company company">
+              <div class="company__name">RaffSoft</div>
+              <div class="company__date">February 2002 - September 2003</div>
+            </div>
+            <div class="work__desc">
+              <ul class="dotted_small">
+                <li>Utilized MSAccess, Delphi, HTML, CSS, PHP, and MySQL for diverse projects.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="work__item">
+            <div class="work__position">Junior PHP Developer</div>
+            <div class="work__company company">
+              <div class="company__name">Kharkiv Forex Club </div>
+              <div class="company__date">February 2002 - September 2003</div>
+            </div>
+            <div class="work__desc">
+              <ul class="dotted_small">
+                <li>Led the company website development and created mathematical tools for market analysis using PHP, MySQL, and PostgreSQL.
+                </li>
+                <li>Implemented a solution for certain market events alert delivery via SMS.</li>
+              </ul>
+            </div>
+          </div>
         </div>
 
-        <h3>PROJECTS</h3>
-          <ul class="dotted dotted-dark">
-            <li>Landing <a href="https://mariia-masliuk.github.io/arkar/dist/" target="_blank">https://mariia-masliuk.github.io/arkar/dist/</a></li>
-            <li>Landing <a href="https://mariia-masliuk.github.io/nature/dist/" target="_blank">https://mariia-masliuk.github.io/nature/dist/</a></li>
-            <li>Landing <a href="https://mariia-masliuk.github.io/tripgraph/dist/dashboard.html" target="_blank">https://mariia-masliuk.github.io/tripgraph/dist/dashboard.html</a></li>
-          </ul>
-
-          <h3>Education</h3>
-          <div class="items">
-            <div class="item">
-              <div class="column">
-                <div class="label">Kharkiv National Polytechnic University</div>
-                <div class="company">09.1997 - 06.2002 (4 years 9 months)</div>
-              </div>
-              <div class="column">
-                  <div class="title">Faculty of Automation and Instrumentation</div>
-                  <div class="text">Specialist's diploma in the specialty "Intelligent decision-making systems."</div>
-              </div>
-            </div>
-          
-            <div class="item">
-              <div class="column">
-                <div class="label">English courses</div>
-                <div class="company">09.1999 - 05.2001 (1 year 8 months)</div>
-              </div>
-              <div class="column">
-                  <div class="title">INTERLINK, Kharkiv</div>
-                  <div class="text"></div>
-              </div>
-            </div>
-          
-            <div class="item">
-              <div class="column">
-                <div class="label">Course "ITVDN Front­End Developer"</div>
-                <div class="company">02.2022 - 04.2022 (1 year 2 months)</div>
-              </div>
-              <div class="column">
-                  <div class="title">ITVDN</div>
-                  <div class="text">
-                    <span>Certificates:</span>
-                    <ul class="dotted dotted-certificate">
-                      <li class="certificate">
-                        <a href="https://testprovider.com/ru/search-certificate/tp61532338">
-                        <i class="fa-duotone fa-file-certificate"></i>TP61532338
-                        </a> 
-                        Git basics
-                      </li>
-                      <li class="certificate"><a href="https://testprovider.com/ru/search-certificate/tp82284387">TP82284387</a> Scrum and Project Management Methodologies</li>
-                      <li class="certificate"><a href="https://testprovider.com/ru/search-certificate/tp31069070">TP31069070</a> HTML5&CSS3 Starter</li>
-                      <li class="certificate"><a href="https://testprovider.com/ru/search-certificate/tp89359801">TP89359801</a> JavaScript Starter</li>
-                      <li class="certificate"><a href="https://testprovider.com/ru/search-certificate/tp47089120">TP47089120</a> TypeScript Fundamentals</li>
-                      <li class="certificate"><a href="https://testprovider.com/ru/search-certificate/tp65365591">TP65365591</a> Twitter Bootstrap 4</li>
-                    </ul>
-                  </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="column">
-                <div class="label">Complete course on JavaScript + React - from scratch to results</div>
-                <div class="company">01.2023 - Present</div>
-              </div>
-              <div class="column">
-                <div class="title">UDEMY Course</div>
-              </div>
+        <h3>CERTIFICATIONS</h3>
+        <ul class="dotted dotted-certificate">
+          <li class="certificate">
+            <a href="https://testprovider.com/ru/search-certificate/tp61532338">
+              <span>Git basics</span><br>
+              ITVDN &middot; 2022
+            </a> 
+          </li>
+          <li class="certificate">
+            <a href="https://testprovider.com/ru/search-certificate/tp82284387">
+              <span>Scrum and Project Management Methodologies</span><br>
+              ITVDN &middot; 2022
+            </a>
+          </li>
+          <li class="certificate">
+            <a href="https://testprovider.com/ru/search-certificate/tp31069070">
+              <span>HTML5&CSS3 Starter</span><br>
+              ITVDN &middot; 2022
+            </a> </li>
+          <li class="certificate">
+            <a href="https://testprovider.com/ru/search-certificate/tp89359801">
+              <span>JavaScript Starter</span><br>
+              ITVDN &middot; 2022
+            </a> </li>
+          <li class="certificate">
+            <a href="https://testprovider.com/ru/search-certificate/tp47089120">
+              <span>TypeScript Fundamentals</span><br>
+              ITVDN &middot; 2022
+            </a> 
+          </li>
+          <li class="certificate">
+            <a href="https://testprovider.com/ru/search-certificate/tp65365591">
+              <span>Twitter Bootstrap 4</span><br>
+              ITVDN &middot; 2022
+            </a> 
+          </li>
+        </ul>
+        <h3>Education</h3>
+        <div class="main__courses course">
+          <div class="course__item">
+            <div class="course__name">Kharkiv National Polytechnic University</div>
+            <div class="course__date">09.1997 - 06.2002 (4 years 9 months)</div>
+            <div class="course__descr">
+              Faculty of Automation and Instrumentation<br>
+              Specialist's diploma in the specialty "Intelligent decision-making systems."
             </div>
           </div>
 
-          <h3>Languages</h3>
+        </div>  
+        <h3>COURSEWORK</h3>
+        <ul class="dotted dotted-dark">
+          <li>
+            <span class="course__name">English courses</span><br>
+            Interlink &middot; 2001
+          </li>
+          <li>
+            <span class="course__name">Front-end developer online course</span><br>
+            ITVDN &middot; 2022
+          </li>
+          <li>
+            <span class="course__name">Complete course on JavaScript + React - from scratch to results</span><br>
+            Udemy &middot; 2023
+          </li>
+
+        </ul>
+
+        <h3>Languages</h3>  
           <ul class="dotted dotted-dark">
             <li><span>English</span> - Intermediate</li>
             <li><span>Ukrainian</span> - Native</li>
             <li><span>Russian</span> - Native</li>
           </ul>
-    </div>
-  </div>
+    </div>    
+   </main>     
+    
+    
+    
+    
   <script src="https://kit.fontawesome.com/372344fb45.js" crossorigin="anonymous"></script>
 </body>
 </html>
