@@ -1,10 +1,10 @@
-@media(min-width: 768px){
+@media(min-width: 48em){
   .main {
   display: flex;
   gap: 1.25rem;
   }
   .main__skill {
-    flex: 0 0 200px;
+    flex: 0 0 12.5rem;
   }
 
   .main__works {
@@ -26,17 +26,17 @@
 .skill {
   background-color: #31507F;
   color: #fff;
-  padding: 10px;
-  border-radius: 10px;
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, .3);
+  padding: 0.625rem;
+  border-radius: 0.625rem;
+  box-shadow: 0.125rem 0.125rem 0.25rem rgba(0, 0, 0, .3);
 }
   .skill__header {
-    border-bottom: 2px solid #fff;
+    border-bottom: 0.125rem solid #fff;
   }
 
   .skill__list {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(11.25rem, 1fr));
   }
 
 
@@ -46,15 +46,15 @@
 }
 
 .work__item {
-  border-bottom: 1px dotted #555;
-  padding: 5px;
-  margin-bottom: 20px;
+  border-bottom: 0.0625rem dotted #555;
+  padding: 0.3125rem;
+  margin-bottom: 1.25rem;
 }
 
 .work__position {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 700;
-  margin-bottom: 5px;
+  margin-bottom: 0.3125rem;
 }
 .work__company {
 }
@@ -68,7 +68,7 @@
   justify-content: space-between;
   font-weight: 700;
   color: #999;
-  margin-bottom: 15px;
+  margin-bottom: 0.9375rem;
 }
 .company__name {
 }
@@ -80,10 +80,10 @@
 .course {
 }
   .course__item {
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
   }
   .course__item > *:not(:last-child){
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
   }
   .course__name {
     font-weight: 700;
